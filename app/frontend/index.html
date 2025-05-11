@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subtitle Generator</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Upload Audio/Video for Subtitle Generation</h1>
+    
+    <!-- File upload -->
+    <form id="uploadForm">
+      <label for="fileUpload">Choose Audio/Video File:</label>
+      <input type="file" id="fileUpload" name="file" accept="audio/*,video/*" required />
+      <button type="submit">Generate Subtitles</button>
+    </form>
+
+    <!-- Loading indicator -->
+    <div id="loading" style="display: none;">Processing...</div>
+
+    <!-- Show subtitle result -->
+    <div id="resultContainer" style="display: none;">
+      <h2>Generated Subtitle:</h2>
+      <pre id="subtitleText"></pre>
+      <button id="copyButton" onclick="copyToClipboard()">Copy to Clipboard</button>
+      <a id="downloadLink">Download as Text</a>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

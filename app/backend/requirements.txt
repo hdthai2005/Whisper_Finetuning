@@ -1,0 +1,5 @@
+flask
+flask-cors
+transformers
+torchaudio
+flask==2.3.3 flask-cors==4.0.1 torchaudio==2.4.0 transformers==4.45.1 ffmpeg-python==0.2.0 torch==2.4.0 datasets==3.0.1 soundfile==0.12.1
