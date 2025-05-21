@@ -1,0 +1,22 @@
+# Core Packages
+transformers==4.41.2
+datasets[audio]>=2.0.0
+accelerate>=0.20.0
+evaluate>=0.4.0
+jiwer>=3.0.0
+peft==0.10.0
+
+# Logging & Monitoring
+wandb>=0.15.0
+tensorboard>=2.12.0
+
+# Audio Processing
+libaio-dev  # System dependency (install via apt)
+ffmpeg      # For audio preprocessing
+
+# Deployment & UI
+gradio>=3.0.0
+
+# Additional Utilities
+torch>=2.0.0  # With CUDA support if needed
+numpy>=1.23.0
