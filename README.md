@@ -28,8 +28,13 @@ sudo apt-get install ffmpeg  # For audio processing
 📜 Citation
 
 @software{Whisper_Vietnamese_2023,
-  author = {Your Name},
+
+  author = {justhoadoan, p-m41, sepp1st, hdthai2005}
+  
   title = {Whisper Fine-Tuning for Vietnamese ASR},
-  url = {https://github.com/your_username/whisper-finetune-vi},
+  
+  url = {https://github.com/hdthai2005/Whisper_Finetuning},
+  
   year = {2023}
+  
 }
