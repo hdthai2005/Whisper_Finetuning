@@ -24,7 +24,8 @@ git clone https://github.com/your_username/whisper-finetune-vi.git
 cd whisper-finetune-vi
 pip install -r requirements.txt
 sudo apt-get install ffmpeg  # For audio processing
-
+```
+📜 Citation
 @software{Whisper_Vietnamese_2023,
   author = {Your Name},
   title = {Whisper Fine-Tuning for Vietnamese ASR},
