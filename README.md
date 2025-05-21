@@ -11,7 +11,7 @@ Optimizing OpenAI's Whisper model for **Vietnamese Automatic Speech Recognition*
 
 ## 🚀 Features
 - ✅ Fine-tuned on **Vietnamese datasets** 
-- 🏆 **Best WER**: 16%
+- 🏆 **Best WER**: 16% (13525 checkpoint)
 - 🤗 All models hosted on [Hugging Face Hub](https://huggingface.co/HoaDoan1710)
 - 🔥 Support: FP16 training, gradient checkpointing
 
