@@ -13,7 +13,7 @@ Optimizing OpenAI's Whisper model for **Vietnamese Automatic Speech Recognition*
 - ✅ Fine-tuned on **Vietnamese datasets** 
 - 🏆 **Best WER**: 16%
 - 🤗 All models hosted on [Hugging Face Hub](https://huggingface.co/HoaDoan1710)
-- 🔥 Support: FP16 training, gradient checkpointing, LoRA
+- 🔥 Support: FP16 training, gradient checkpointing
 
 ---
 
@@ -31,10 +31,10 @@ sudo apt-get install ffmpeg  # For audio processing
 
   author = {justhoadoan, p-m41, sepp1st, hdthai2005}
   
-  title = {Whisper Fine-Tuning for Vietnamese ASR},
+  title = {Whisper Fine-Tuning for Vietnamese ASR}
   
-  url = {https://github.com/hdthai2005/Whisper_Finetuning},
+  url = {https://github.com/hdthai2005/Whisper_Finetuning}
   
   year = {2023}
-  
-}
+  }
+
